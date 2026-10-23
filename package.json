@@ -1,13 +1,13 @@
 {
   "name": "@sudobility/raidr_cli",
-  "version": "0.0.24",
+  "version": "0.0.25",
   "description": "Reconstruct a web app from an raidr capture bundle",
   "license": "BUSL-1.1",
   "author": "Sudobility Inc.",
   "homepage": "https://github.com/johnqh/raidr_cli#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johnqh/raidr_cli.git"
+    "url": "https://github.com/Sudobility/raidr_cli.git"
   },
   "bugs": {
     "url": "https://github.com/johnqh/raidr_cli/issues"
@@ -44,8 +44,8 @@
     "fixtures:capture": "bun run scripts/captureFixture.ts"
   },
   "dependencies": {
-    "@sudobility/raidr_processor": "^0.1.8",
-    "@sudobility/raidr_types": "^0.1.15",
+    "@sudobility/raidr_processor": "^0.1.9",
+    "@sudobility/raidr_types": "^0.1.16",
     "fflate": "^0.8.2",
     "hono": "^4.6.0",
     "playwright": "^1.60.0",
