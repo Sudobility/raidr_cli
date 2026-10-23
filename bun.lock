@@ -7,14 +7,14 @@
       "dependencies": {
         "@sudobility/raidr_processor": "^0.1.9",
         "@sudobility/raidr_types": "^0.1.16",
-        "fflate": "^0.8.2",
-        "hono": "^4.6.0",
-        "playwright": "^1.60.0",
-        "prettier": "^3.6.2",
+        "fflate": "~0.8.3",
+        "hono": "~4.13.13",
+        "playwright": "~1.64.1",
+        "prettier": "~3.9.10",
       },
       "devDependencies": {
-        "@types/bun": "^1.3.14",
-        "typescript": "^5.7.3",
+        "@types/bun": "~1.4.4",
+        "typescript": "~5.9.3",
       },
     },
   },
@@ -23,7 +23,7 @@
 
     "@sudobility/raidr_types": ["@sudobility/raidr_types@0.1.16", "https://npm.pkg.github.com/download/@sudobility/raidr_types/0.1.16/f1e7e5ddb557ebb36d34239da5d60907cf7cd772", { "peerDependencies": { "@sudobility/types": "^1.9.72", "zod": "^4.0.0" } }, "sha512-tEPAufEv1I5FhonCFj4IytbWj/J7Zacrh//b9oraxM+Dkh1+mLVAfXsyEKhtwwxQC/GthbzNhOVOkRe5tHWYEw=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.74", "https://npm.pkg.github.com/download/@sudobility/types/1.9.74/f9ad864ba5d8d1097e7e48378ebee8aa7e129e88", {}, "sha512-jgt0F1r71qjFNiRNn/1YlL4JU65sjnzYd8Sfi+Y9z62Lu9VhIXeqWAH12u7/hmGPZqG3nxzn0V+s3sFkB1qWuQ=="],
+    "@sudobility/types": ["@sudobility/types@1.9.75", "https://npm.pkg.github.com/download/@sudobility/types/1.9.75/d041222e1a9c48b1857a25686361fa493265e572", {}, "sha512-c0IqHhNsyMxWFzv+sC8drTXid1s/yberzme5JJTYIR2CE+DxpnjFCyL0AIMKUwTQYhYKvRZG0JkWRFplirbBrw=="],
 
     "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
 
