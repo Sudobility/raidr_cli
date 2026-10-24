@@ -6,7 +6,7 @@
       "name": "@sudobility/raidr_cli",
       "dependencies": {
         "@sudobility/raidr_processor": "^0.1.9",
-        "@sudobility/raidr_types": "^0.1.16",
+        "@sudobility/raidr_types": "^0.1.17",
         "fflate": "~0.8.3",
         "hono": "~4.11.5",
         "playwright": "~1.64.1",
@@ -21,7 +21,7 @@
   "packages": {
     "@sudobility/raidr_processor": ["@sudobility/raidr_processor@0.1.9", "https://npm.pkg.github.com/download/@sudobility/raidr_processor/0.1.9/0b4600546c6ec4962af63716c05a3b936952009d", { "dependencies": { "fflate": "^0.8.2" } }, "sha512-AoQtzahSOB9aSkwsG4muF6LvrOFQAIGQo+AnWGM7EaGv5MhoUgzXEfNdWgOAmDC3fJCfQDQqu1yrmjoVG/etlA=="],
 
-    "@sudobility/raidr_types": ["@sudobility/raidr_types@0.1.16", "https://npm.pkg.github.com/download/@sudobility/raidr_types/0.1.16/f1e7e5ddb557ebb36d34239da5d60907cf7cd772", { "peerDependencies": { "@sudobility/types": "^1.9.72", "zod": "^4.0.0" } }, "sha512-tEPAufEv1I5FhonCFj4IytbWj/J7Zacrh//b9oraxM+Dkh1+mLVAfXsyEKhtwwxQC/GthbzNhOVOkRe5tHWYEw=="],
+    "@sudobility/raidr_types": ["@sudobility/raidr_types@0.1.17", "https://npm.pkg.github.com/download/@sudobility/raidr_types/0.1.17/f246af9df2af79da36479793940690428dd0e59f", { "peerDependencies": { "@sudobility/types": "^1.9.76", "zod": "^4.0.0" } }, "sha512-k6f4lshm8/Os7EVT7LDJrVeh3iGXm0Rbi5ceOLLs+pGXHNL9G7SFoAzyzKiuQNXIAcOeR7GwSkvF2L8a5i32NA=="],
 
     "@sudobility/types": ["@sudobility/types@1.9.76", "https://npm.pkg.github.com/download/@sudobility/types/1.9.76/71635156f72fd9461107d5f147b3dc1c49f863d0", {}, "sha512-b7maZHR5wM84VlQ+l9R+2guzSOrExog6OUNy1oCe7h0abW13syycmnLQL0g+qql0aQ84qTB4A0mJelhY3Vef4Q=="],
 

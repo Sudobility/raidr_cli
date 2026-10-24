@@ -1,6 +1,6 @@
 {
   "name": "@sudobility/raidr_cli",
-  "version": "0.0.27",
+  "version": "0.0.28",
   "description": "Reconstruct a web app from an raidr capture bundle",
   "license": "BUSL-1.1",
   "author": "Sudobility Inc.",
@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "@sudobility/raidr_processor": "^0.1.9",
-    "@sudobility/raidr_types": "^0.1.16",
+    "@sudobility/raidr_types": "^0.1.17",
     "fflate": "~0.8.3",
     "hono": "~4.11.5",
     "playwright": "~1.64.1",
