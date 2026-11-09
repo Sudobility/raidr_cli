@@ -8,7 +8,16 @@ bun add -g @sudobility/raidr_cli
 ```
 
 Requires [Bun](https://bun.sh) ≥ 1.2. The CLI ships as TypeScript and runs
-under Bun directly.
+under Bun directly — there is no build step.
+
+`@sudobility` packages are published to **GitHub Packages**, not the public npm
+registry, so point the scope at that registry and authenticate with a GitHub
+token that has `read:packages` (in `~/.npmrc` or the project `.npmrc`):
+
+```
+@sudobility:registry=https://npm.pkg.github.com
+//npm.pkg.github.com/:_authToken=${GH_PACKAGES_READ_TOKEN}
+```
 
 ## Usage
 
@@ -85,11 +94,15 @@ The two consumers never see each other.
 
 ```bash
 bun install
-bun run typecheck
-bun test
-bun run fixtures:build      # build the sample apps
-bun run fixtures:capture    # capture them into fixtures/bundles/
+bun run typecheck           # tsc --noEmit
+bun run test:unit           # the standard test loop (no browser needed)
+bun run fixtures:build      # build the sample apps (needs network)
+bun run fixtures:capture    # capture them into fixtures/bundles/ (needs a browser)
 ```
+
+There is no `build` or `lint` script. `bun run test:unit` is the everyday
+command; plain `bun test` additionally runs `tests/capture`, which needs a
+Playwright browser and built fixtures and will otherwise fail.
 
 ## The raidr project
 
