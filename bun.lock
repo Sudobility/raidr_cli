@@ -6,7 +6,7 @@
       "name": "@sudobility/raidr_cli",
       "dependencies": {
         "@sudobility/raidr_processor": "^0.1.13",
-        "@sudobility/raidr_types": "^0.1.23",
+        "@sudobility/raidr_types": "^0.1.24",
         "fflate": "~0.8.3",
         "hono": "~4.11.5",
         "playwright": "~1.64.1",
@@ -16,14 +16,17 @@
         "@types/bun": "~1.4.4",
         "typescript": "~5.9.3",
       },
+      "peerDependencies": {
+        "@sudobility/types": "^1.11.2",
+      },
     },
   },
   "packages": {
     "@sudobility/raidr_processor": ["@sudobility/raidr_processor@0.1.13", "https://npm.pkg.github.com/download/@sudobility/raidr_processor/0.1.13/7f21039f92ef7659e51dae1e49f0d41bb3943b7b", { "dependencies": { "fflate": "~0.8.3" } }, "sha512-GJhQiPI18IgyaQ69cQlxP4cqaAFN1+yF2nc+dtKqMUEJ8Sxby5j6ueExDIsKVunQBBX3+KwZlbVGwyT9Mr3omQ=="],
 
-    "@sudobility/raidr_types": ["@sudobility/raidr_types@0.1.23", "https://npm.pkg.github.com/download/@sudobility/raidr_types/0.1.23/cfbf68028b92add3c780ab3963ae0fdc7bacbbbc", { "peerDependencies": { "@sudobility/types": "^1.11.1", "zod": "^4.0.0" } }, "sha512-rGiX0+pr5nVVSsyhvEySQLvcZG+toRxoPqJU3tfR9wQoLvRIFumyZU1m2soiXezPWOylbmWlPXE/d/XQJHSm8A=="],
+    "@sudobility/raidr_types": ["@sudobility/raidr_types@0.1.24", "https://npm.pkg.github.com/download/@sudobility/raidr_types/0.1.24/5415037f1ed38b1db95ed5f5060620fa60005c24", { "peerDependencies": { "@sudobility/types": "^1.11.2", "zod": "^4.0.0" } }, "sha512-6YyH+m3cLy6ioa7Kv9DKhkTf1h3PRmwWOAplTaDzcHAthGlPoPBOlfXx2kZ+mHzWpxJGZQJk+BqQdEtQYfMe/A=="],
 
-    "@sudobility/types": ["@sudobility/types@1.9.76", "https://npm.pkg.github.com/download/@sudobility/types/1.9.76/71635156f72fd9461107d5f147b3dc1c49f863d0", {}, "sha512-b7maZHR5wM84VlQ+l9R+2guzSOrExog6OUNy1oCe7h0abW13syycmnLQL0g+qql0aQ84qTB4A0mJelhY3Vef4Q=="],
+    "@sudobility/types": ["@sudobility/types@1.11.2", "https://npm.pkg.github.com/download/@sudobility/types/1.11.2/d6d0b1809eaca31ef737646032cc431111b58a49", {}, "sha512-gg+bPtcOGNETDt9oNdjcn7R22EfFWmRxMOhj0ADwulBJ9tJ4NaMaXkrTtkWF+figSDZqmD9a9kodgOHseq8gsQ=="],
 
     "@types/bun": ["@types/bun@1.4.4", "", { "dependencies": { "bun-types": "1.4.4" } }, "sha512-9wkRDXUXK124pEnAutE6n/l18j+i9GC5IAHK8TmX/2nlySETmky0OU6yL5U8pW1AoKh++AN9auDCr647BfurjQ=="],
 
